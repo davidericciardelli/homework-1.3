@@ -1,0 +1,4 @@
+Nel secondo livello del modello ISO/OSI ovvero il Data-link vengono utilizzati principalmente i protocolli:
+PPP (point to point protocol) Questo protocollo viene usato per stabilire connessioni dirette tra 2 nodi, inoltre riesce a stabilire se un frame ( ovvero dei pacchetti di dati incapsulati in frame che ne rendono più facile la trasmissione) contiene un errore così da far cadere la connessione se ci sono troppi errori
+HDLC (high level data link control) è un protocollo a riempiento di bit quindi bit oriented e usa la tecnica di bit stuffing (inserimento di 0 aggiuntivi affinchè i dati non siano identificati come una sequenza di controllo, quindi ogni cinque bit 1 viene inserito uno 0) 
+ADCCP (advanced data comunications control protocol) è un protocollo bit oriented, questo protocollo si assicura che i dati siano correttamente consegnati al destinatario.
